@@ -8,5 +8,3 @@ CP = $(T)/catalina.jar:$(T)/servlet-api.jar:$(T)/tomcat-juli.jar: \
 # Java compilation
 Duo.class:	OTP.java Duo.java
 	javac -cp $(CP):. OTP.java Duo.java
-
-# Add more targets as necessary
